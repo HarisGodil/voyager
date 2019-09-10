@@ -36,6 +36,7 @@ module.exports = {
     contentBase: path.resolve(__dirname, '../'),
     compress: true,
     host: '0.0.0.0',
+    disableHostCheck: true,
     port: 9000
   },
 
