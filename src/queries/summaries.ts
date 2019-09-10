@@ -54,7 +54,7 @@ export const summaries: QueryCreator = {
       // aggregationQuality should be the same with group with similar transform
       chooseBy: ['aggregationQuality', 'effectiveness'],
       config: {
-        autoAddCount: true,
+        autoAddCount: false,
         omitRaw: true
       }
     };

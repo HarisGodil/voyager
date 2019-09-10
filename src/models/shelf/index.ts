@@ -11,7 +11,7 @@ export const DEFAULT_SHELF: Readonly<Shelf> = {
   spec: DEFAULT_SHELF_UNIT_SPEC,
   filters: [],
   groupBy: 'auto',
-  autoAddCount: true
+  autoAddCount: false
 };
 
 export type ShelfGroupBy = 'auto' | 'field' | 'fieldTransform' | 'encoding';

@@ -66,7 +66,7 @@ describe('models/shelf', () => {
           config: {numberFormat: 'd'}
         },
         groupBy: 'auto',
-        autoAddCount: true
+        autoAddCount: false
       })).toEqual({
         spec: {
           mark: 'point',
@@ -79,7 +79,7 @@ describe('models/shelf', () => {
         chooseBy: DEFAULT_CHOOSE_BY,
         orderBy: DEFAULT_ORDER_BY,
         config:  {
-          autoAddCount: true
+          autoAddCount: false
         }
       });
     });
@@ -95,7 +95,7 @@ describe('models/shelf', () => {
           anyEncodings: [],
           config: {numberFormat: 'd'}
         },
-        autoAddCount: true,
+        autoAddCount: false,
         groupBy: 'auto'
       })).toEqual({
         spec: {
@@ -109,7 +109,7 @@ describe('models/shelf', () => {
         chooseBy: DEFAULT_CHOOSE_BY,
         orderBy: DEFAULT_ORDER_BY,
         config:  {
-          autoAddCount: true
+          autoAddCount: false
         }
       });
     });

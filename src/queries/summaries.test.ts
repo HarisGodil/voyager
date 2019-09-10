@@ -59,7 +59,7 @@ describe('queries/summaries', () => {
       groupBy: 'fieldTransform',
       orderBy: ['fieldOrder', 'aggregationQuality', 'effectiveness'],
       chooseBy: ['aggregationQuality', 'effectiveness'],
-      config: {autoAddCount: true, omitRaw: true}
+      config: {autoAddCount: false, omitRaw: true}
     });
   });
 });

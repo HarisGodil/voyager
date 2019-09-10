@@ -39,7 +39,7 @@ describe('queries/field-suggestions', () => {
         groupBy: 'field',
         orderBy: ['fieldOrder', 'aggregationQuality', 'effectiveness'],
         chooseBy: ['aggregationQuality', 'effectiveness'],
-        config: {autoAddCount: true}
+        config: {autoAddCount: false}
       });
     });
   });
@@ -79,7 +79,7 @@ describe('queries/field-suggestions', () => {
         groupBy: 'field',
         orderBy: ['fieldOrder', 'aggregationQuality', 'effectiveness'],
         chooseBy: ['aggregationQuality', 'effectiveness'],
-        config: {autoAddCount: true}
+        config: {autoAddCount: false}
       });
     });
   });
@@ -117,7 +117,7 @@ describe('queries/field-suggestions', () => {
         groupBy: 'field',
         orderBy: ['fieldOrder', 'aggregationQuality', 'effectiveness'],
         chooseBy: ['aggregationQuality', 'effectiveness'],
-        config: {autoAddCount: true}
+        config: {autoAddCount: false}
       });
     });
   });
